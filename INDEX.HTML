@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUMBAKARNA</title>
+    <link rel="stylesheet" href="INDEX.CSS">
+</head>
+<body class="">
+    
+    <div class="container">
+        <header>
+            <h1 style="color: rgb(80, 2, 2);">WELCOME</h1>
+            <div class="shopping">
+                <img src="pictures/KUMBAKARNA.jpg">
+                <span class="quantity" style="position: absolute;">CART</span>
+            </div>
+        </header>
+
+        <form>
+            <label for="food">Choose a food item:</label>
+    <input type="text" id="food" name="food" list="foodList" autocomplete="off">
+    
+    <datalist id="foodList">
+      <option value="Pizza">
+      <option value="Burger">
+      <option value="Biryani">
+      <option value="NOOdles">
+      <option value="Pasta">
+      <option value="JUCIES">
+      <option value="Ice Cream">
+    </datalist>
+    <input type="submit" value="Submit">
+          </form>
+        
+
+        <div class="list">
+          
+        </div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard"></ul>
+        <label for="datepicker">Select  date:</label>
+                <input type="date" id="datepicker" name="datepicker">
+                   <input type="time" id="timepicker" name="timepicker">
+        <div class="checkOut">
+            <div class="total">total amount</div>
+            <div class="closeShopping">Close</div>
+            <button class="print-button" onclick="printContent()">Print bill</button>
+
+            </div>
+    </div>
+        <!-- pagination -->
+     <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+    
+      </ul>
+
+      <script src="INDEX.JS"></script>
+</body>
+</html>
